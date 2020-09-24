@@ -6,21 +6,22 @@ I am using [Imagenette](https://github.com/fastai/imagenette) dataset from [fast
 
 In the various branches, I have conducted several experiments. 
 
-Branch: first_experiment
-Experiment: SGD Classifier trained on 10 iterations
-Accuracy: 66%
+Branch: first_experiment <br>
+Experiment: SGD Classifier trained on 10 iterations <br>
+Accuracy: 66% <br>
 
-Branch: sgd_100_iterations
-Experiment: SGD Classifier trained on 100 iterations
-Accuracy: 76%
+Branch: sgd_100_iterations <br>
+Experiment: SGD Classifier trained on 100 iterations <br>
+Accuracy: 76% <br>
 
-Branch: sgd_pipeline
-Experiment: SGD Classifier trained on 100 iterations and ran as a DVC pipeline
-TODO: Advantages of DVC pipeline
-Accuracy: 79% (There is randomness in the training, hence the accuracy differs from the above experiment)
+Branch: sgd_pipeline <br>
+Experiment: SGD Classifier trained on 100 iterations and ran as a DVC pipeline <br>
+Accuracy: 79% (There is randomness in the training, hence the accuracy differs from the above experiment) <br>
 
-Branch: random_forest
-Experiment: Random Forest Classifier ran as a DVC pipeline
-Accuracy: 81%
+Branch: random_forest <br>
+Experiment: Random Forest Classifier ran as a DVC pipeline <br>
+Accuracy: 81% <br>
 
 Please refer to the respective README under each branch for further details of the experiments.
+
+TODO: Advantages of DVC pipeline
