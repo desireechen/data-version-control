@@ -1,15 +1,26 @@
-# Data Version Control Tutorial
+# Data Version Control
 
-Example repository for the [Data Version Control With Python and DVC](https://realpython.com/python-data-version-control/) article on [Real Python](https://realpython.com/).
+This master branch is the forked repository based on the [Data Version Control With Python and DVC](https://realpython.com/python-data-version-control/) article in [Real Python](https://realpython.com/). I had referred to this article for my study of how Data Version Control (DVC) can be used to version both data and model.
 
-To use this repo as part of the tutorial, you first need to get your own copy. Click the _Fork_ button in the top-right corner of the screen, and select your private account in the window that pops up. GitHub will create a forked copy of the repository under your account.
+I am using [Imagenette](https://github.com/fastai/imagenette) dataset from [fastai](https://www.fast.ai/).
 
-Clone the forked repository to your computer with the `git clone` command
+In the various branches, I have conducted several experiments. 
 
-```console
-git clone git@github.com:YourUsername/data-version-control.git
-```
+Branch: first_experiment
+Experiment: SGD Classifier trained on 10 iterations
+Accuracy: 66%
 
-Make sure to replace `YourUsername` in the above command with your actual GitHub username.
+Branch: sgd_100_iterations
+Experiment: SGD Classifier trained on 100 iterations
+Accuracy: 76%
 
-Happy coding!
+Branch: sgd_pipeline
+Experiment: SGD Classifier trained on 100 iterations and ran as a DVC pipeline
+TODO: Advantages of DVC pipeline
+Accuracy: 79% (There is randomness in the training, hence the accuracy differs from the above experiment)
+
+Branch: random_forest
+Experiment: Random Forest Classifier ran as a DVC pipeline
+Accuracy: 81%
+
+Please refer to the respective README under each branch for further details of the experiments.
