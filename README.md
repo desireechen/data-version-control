@@ -8,7 +8,7 @@ In the various branches, I have conducted several experiments.
 
 Branch: first_experiment <br>
 Experiment: SGD Classifier trained on 10 iterations <br>
-Accuracy: 66% <br>
+Accuracy: 62% <br>
 
 Branch: sgd_100_iterations <br>
 Experiment: SGD Classifier trained on 100 iterations <br>
@@ -16,11 +16,11 @@ Accuracy: 76% <br>
 
 Branch: sgd_pipeline <br>
 Experiment: SGD Classifier trained on 100 iterations and ran as a DVC pipeline <br>
-Accuracy: 79% (There is randomness in the training, hence the accuracy differs from the above experiment) <br>
+Accuracy: 76% (same as above, as I had defined a random_state) <br>
 
 Branch: random_forest <br>
 Experiment: Random Forest Classifier ran as a DVC pipeline <br>
-Accuracy: 81% <br>
+Accuracy: 80% <br>
 
 Please refer to the respective README under each branch for further details of the experiments.
 
